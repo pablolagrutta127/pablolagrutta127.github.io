@@ -28,14 +28,23 @@ header,footer{
         background-color:rgb(192, 196, 207);
         margin-top:auto; 
     }
-footer {
+    footer {
         position: relative;
-        right: 0;
+        font-family: 'Open Sans', sans-serif;
+        color:bisque;
+        font-size:15px;
         bottom: 0;
-        left: 0;
-        padding: 1rem;
+        align-self: center;
+       
+        /*padding: 1rem;*/
         text-align: center;
-    
+      
+      }
+
+      .footer-text{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        text-align:center;
       }
 a,h1{
     font-family: 'Open Sans', sans-serif;
@@ -43,5 +52,9 @@ a,h1{
 }
 
 p{
-    font-weight: bold;;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:beige;
+
 }
